@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- The "brace": the common light spaceship of the Critters reversible CA.
+       Cells: (top-right, upper-left, lower-left, bottom-right) -> a } shape. -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .cell { fill: #FF6A4A; }
+    }
+  </style>
+  <g class="cell" fill="#CB3A21">
+    <rect x="16" y="4"  width="5" height="5" rx="1.3"/>
+    <rect x="10" y="10" width="5" height="5" rx="1.3"/>
+    <rect x="10" y="16" width="5" height="5" rx="1.3"/>
+    <rect x="16" y="22" width="5" height="5" rx="1.3"/>
+  </g>
+</svg>
