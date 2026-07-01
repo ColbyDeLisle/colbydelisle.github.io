@@ -151,16 +151,15 @@
     .links a span { border-bottom: 1px solid transparent; }
     .links a:hover span { border-bottom-color: var(--accent); }
     .links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
-    /* In-content links (intro + venue) — tie into the accent, both states */
-    .intro a, .venue a, .what a {
+    main a:not(.links a) {
       color: var(--accent);
       text-decoration: none;
       border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
     }
-    .intro a:visited, .venue a:visited, .what a:visited {
+    main a:not(.links a):visited {
       color: color-mix(in srgb, var(--accent) 62%, var(--muted));
     }
-    .intro a:hover, .venue a:hover, .what a:hover {
+    main a:not(.links a):hover {
       color: var(--accent);
       border-bottom-color: var(--accent);
     }
